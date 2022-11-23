@@ -34,7 +34,7 @@ module.exports = async function cdnCachePlugin(inputs, args) {
     });
     return client;
   }
-  const credentials = getCredentials(inputs);
+  const credentials = await getCredentials(inputs);
   const client = getCdnClient(credentials);
   const cdnService = new CdnService({
     logger,

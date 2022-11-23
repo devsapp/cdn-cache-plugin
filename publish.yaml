@@ -11,7 +11,7 @@ Type: Plugin
 Name: cdn-cache-plugin
 Provider:
   - 阿里云 
-Version: dev
+Version: 0.0.1
 Description: CDN 刷新插件，一般和OSS配置，发布源站之后需要刷新CDN。
 HomePage: https://github.com/devsapp/cdn-cacheRefresh-plugin
 Tags: #标签详情
