@@ -1,0 +1,32 @@
+{
+  "name": "cdn-cacheRefresh-plugin",
+  "version": "0.0.1",
+  "description": "This is a component demo for Serverless Devs Tool ",
+  "autoInstall": false,
+  "homepage": "https://www.serverless-devs.com",
+  "author": "Serverless-Devs",
+  "contributors": [],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "Serverless",
+    "Framework",
+    "Serverless-Devs",
+    "Function Compute"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@serverless-devs/core": "latest",
+    "@serverless-cd/aliyun-cdn-cache": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "esbuild": "^0.13.8",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.4.2"
+  }
+}
