@@ -2,7 +2,7 @@
 ## 缓存刷新
 ```
 actions:
-  pre-deploy:
+  post-deploy:
     - plugin: cdn-cache-plugin
       args:
         operateType: refresh
@@ -11,7 +11,7 @@ actions:
 ## 缓存预热
 ```
 actions:
-  pre-deploy:
+  post-deploy:
     - plugin: cdn-cache-plugin
       args:
         operateType: push
